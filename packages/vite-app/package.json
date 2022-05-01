@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "esm-only": "workspace:*",
+    "esm-only2": "workspace:*",
     "typescript": "^4.5.4",
     "vite": "^2.9.5"
   }

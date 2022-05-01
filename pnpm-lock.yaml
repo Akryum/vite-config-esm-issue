@@ -2,16 +2,24 @@ lockfileVersion: 5.3
 
 importers:
 
+  .:
+    specifiers: {}
+
   packages/esm-only:
+    specifiers: {}
+
+  packages/esm-only2:
     specifiers: {}
 
   packages/vite-app:
     specifiers:
       esm-only: workspace:*
+      esm-only2: workspace:*
       typescript: ^4.5.4
       vite: ^2.9.5
     devDependencies:
       esm-only: link:../esm-only
+      esm-only2: link:../esm-only2
       typescript: 4.6.4
       vite: 2.9.6
 
